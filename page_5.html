@@ -1,25 +1,94 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>        
-    </head>
-    <body>
-        <div id="header-shared"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human Machine Interaction - Portfolio Dr.Eng Romy Setiawan Budhi</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-        <div id="footer-shared"></div>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero {
+      background: linear-gradient(to right, #0d6efd, #6ea8fe);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
 
-        
-        <script>
-            $(function(){
-                $("#header-shared").load("header.html");
-                $("#footer-shared").load("footer.html");
-            });
-        </script>
+    <div id="header-shared"></div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+<section class="hero">
+  <h1>Human Machine Interaction</h1>
+  <p>Achievement & Portfolio</p>
+</section>
+
+
+<section class="container mt-5">
+  <h2 class="text-center text-primary mb-4">Portfolio & Achievement</h2>
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="foto1.jpg" class="card-img-top" alt="Achievement 1">
+        <div class="card-body">
+          <h5 class="card-title">Penelitian HMI</h5>
+          <p class="card-text">
+            Penelitian inovatif dalam bidang interaksi manusia dan mesin untuk pengembangan teknologi modern.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="foto2.jpg" class="card-img-top" alt="Achievement 2">
+        <div class="card-body">
+          <h5 class="card-title">Seminar Nasional</h5>
+          <p class="card-text">
+            Pembicara dalam seminar nasional dan internasional terkait teknologi dan HMI.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="foto3.jpg" class="card-img-top" alt="Achievement 3">
+        <div class="card-body">
+          <h5 class="card-title">Penghargaan HMI</h5>
+          <p class="card-text">
+            Menerima berbagai penghargaan atas kontribusi di bidang pendidikan dan teknologi.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <div id="footer-shared"></div>
+
+    <script>
+        $(function(){
+            $("#header-shared").load("header.html");
+            $("#footer-shared").load("footer.html");
+        });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
